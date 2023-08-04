@@ -14,8 +14,8 @@ export default defineComponent({
 
     return () => (
       <div class={[route.name === 'grow' && S['logo-box']]} flex flex-col items-center justify-end h-132 transition-height duration-1500>
-        <div class={[route.name === 'grow' && S['logo']]} i-carbon:sprout text-64 transition-all duration-1500 />
-        <h3 text="16" italic transition-color duration-1500>
+        <div class={[route.name === 'grow' && S['logo']]} i-carbon:sprout text-64px transition-all duration-1500 />
+        <h3 italic transition-color duration-1500>
           { msg.value }
         </h3>
       </div>

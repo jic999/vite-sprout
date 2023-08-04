@@ -4,7 +4,7 @@ import { RouterView } from 'vue-router'
 
 <template>
   <AppProvider>
-    <Sprout mt-64 />
+    <Sprout mt-64px />
     <RouterView />
     <TheFooter />
   </AppProvider>
