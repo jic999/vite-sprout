@@ -28,7 +28,6 @@ export default defineConfig({
       extensions: ['vue', 'tsx'],
       dts: 'src/components.d.ts',
     }),
-    // VueSetupExtend(),
   ],
   resolve: {
     alias: {

@@ -1,9 +1,6 @@
 html {
-  color: var(--text-c);
-}
-html.dark {
-  background-color: var(--dark-bg-c);
-  color: var(--dark-text-c);
+  color: var(--sp-text-c);
+  background-color: var(--sp-bg-c);
 }
 ::-webkit-scrollbar {
   width: 8px;
