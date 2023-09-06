@@ -7,7 +7,7 @@ export default defineComponent({
     const route = useRoute()
 
     const msgObj: { [key: string]: string } = {
-      index: 'Vite Sprout',
+      home: 'Vite Sprout',
       grow: 'Grow Up',
     }
     const msg = computed(() => msgObj[route.name as string] || '')

@@ -13,7 +13,7 @@ setTimeout(() => {
 
 <template>
   <div flex-center>
-    <n-button type="primary" round secondary @click="$router.push({ name: 'index' })">
+    <n-button type="primary" round secondary @click="$router.push('/')">
       Back~
     </n-button>
   </div>

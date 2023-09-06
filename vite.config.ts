@@ -2,7 +2,6 @@ import path from 'node:path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import VueJsx from '@vitejs/plugin-vue-jsx'
-import Pages from 'vite-plugin-pages'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
@@ -14,7 +13,6 @@ export default defineConfig({
     Vue(),
     VueJsx(),
     Unocss(),
-    Pages(),
     VueMacros(),
     AutoImport({
       imports: ['vue', 'vue-router', 'pinia', '@vueuse/core', 'vue/macros'],

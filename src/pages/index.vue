@@ -8,7 +8,7 @@ const counterStore = useCounterStore()
 
 <template>
   <div text-center>
-    <n-button type="primary" round @click="$router.push({ name: 'grow' })">
+    <n-button type="primary" round @click="$router.push('/grow')">
       Start!
     </n-button>
     <p mt-xl text="sm gray-5" italic>
