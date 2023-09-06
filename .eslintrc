@@ -1,8 +1,3 @@
 {
-  "root": true,
-  "extends": ["@antfu", "@unocss"],
-  "rules": {
-    "no-console": "off",
-    "dot-notation": "off"
-  }
+  "extends": ["@antfu", "@unocss"]
 }
