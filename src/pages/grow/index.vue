@@ -8,7 +8,7 @@ setTimeout(() => {
   window.$loadingBar.finish()
   loadingMsg.destroy()
   window.$message.success('Grow up~')
-}, 1200)
+}, 1500)
 </script>
 
 <template>
@@ -18,5 +18,3 @@ setTimeout(() => {
     </n-button>
   </div>
 </template>
-
-<style lang="scss" scoped></style>

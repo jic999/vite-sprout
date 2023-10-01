@@ -1,9 +1,16 @@
 :root {
   --sp-primary-c: #0d9488;
-  --sp-text-c: #374151;
+  --sp-text-c: #303133;
+  --sp-text-c-1:#606266;
   --sp-bg-c: #f2f4f2;
+
+  // dark theme
+  --dark-sp-text-c: #E5EAF3;
+  --dark-sp-text-c-1:#CFD3DC;
+  --dark-sp-bg-c: #1a1a1a;
 }
 html.dark {
-  --sp-text-c: #e5e7eb;
-  --sp-bg-c: #1a1a1a;
+  --sp-text-c: var(--dark-sp-text-c);
+  --sp-text-c-1: var(--dark-sp-text-c-1);
+  --sp-bg-c: var(--dark-sp-bg-c);
 }

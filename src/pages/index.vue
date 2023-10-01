@@ -11,7 +11,7 @@ const counterStore = useCounterStore()
     <n-button type="primary" round @click="$router.push('/grow')">
       Start!
     </n-button>
-    <p mt-xl text="sm gray-5" italic>
+    <p mt-xl text="sm $sp-text-c-1" italic>
       Sprout is tiny, but it nurtures infinite hope.
     </p>
     <div flex-center gap-x-sm>

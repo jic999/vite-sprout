@@ -1,5 +1,6 @@
 {
   "name": "vite-sprout",
+  "type": "module",
   "version": "0.0.0",
   "private": true,
   "author": "jic999",
@@ -20,14 +21,14 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "0.38.4",
+    "@antfu/eslint-config": "1.0.0-beta.18",
     "@iconify-json/carbon": "^1.1.16",
     "@iconify/utils": "^2.1.5",
     "@types/node": "^18.15.11",
     "@unocss/eslint-config": "^0.51.8",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vitejs/plugin-vue-jsx": "^3.0.0",
-    "eslint": "^8.37.0",
+    "eslint": "^8.50.0",
     "eslint-plugin-vue": "^9.10.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.2.2",
