@@ -7,6 +7,7 @@ import Components from 'unplugin-vue-components/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
 import Unocss from 'unocss/vite'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
+import Pages from 'vite-plugin-pages'
 
 export default defineConfig({
   plugins: [
@@ -26,6 +27,7 @@ export default defineConfig({
       extensions: ['vue', 'tsx'],
       dts: 'src/components.d.ts',
     }),
+    Pages(),
   ],
   resolve: {
     alias: {
