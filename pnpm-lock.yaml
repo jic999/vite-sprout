@@ -11,9 +11,6 @@ dependencies:
   pinia:
     specifier: ^2.0.32
     version: 2.0.33(typescript@5.0.4)(vue@3.2.47)
-  vite-sprout:
-    specifier: 'link:'
-    version: 'link:'
   vue:
     specifier: ^3.2.47
     version: 3.2.47
