@@ -2,12 +2,13 @@
 defineOptions({
   name: 'Grow',
 })
-window.$loadingBar.start()
-const loadingMsg = window.$message.loading('Growing', { duration: 0 })
+$loadingBar.start()
+$message.loading('Growing', { duration: 0 })
+
 setTimeout(() => {
-  window.$loadingBar.finish()
-  loadingMsg.destroy()
-  window.$message.success('Grow up~')
+  $loadingBar.finish()
+  $message.destroyAll()
+  $message.success('Grow up~')
 }, 1500)
 </script>
 

@@ -9,10 +9,15 @@ declare module 'vue' {
 }
 
 declare global {
+  const $message: MessageProviderInst
+  const $loadingBar: LoadingBarProviderInst
+  const $dialog: DialogProviderInst
+  const $notification: NotificationProviderInst
+
   interface Window {
+    $message: MessageProviderInst
     $loadingBar: LoadingBarProviderInst
     $dialog: DialogProviderInst
-    $message: MessageProviderInst
     $notification: NotificationProviderInst
   }
 }
