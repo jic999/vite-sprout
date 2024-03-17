@@ -16,15 +16,13 @@ export default defineConfig({
     Unocss(),
     VueMacros(),
     AutoImport({
-      imports: ['vue', 'vue-router', 'pinia', '@vueuse/core', 'vue/macros'],
+      imports: ['vue', 'vue-router', 'vue/macros', 'pinia'],
       dts: 'src/auto-imports.d.ts',
-      dirs: ['src/composables', 'src/stores'],
+      dirs: ['src/stores'],
       vueTemplate: true,
     }),
     Components({
       resolvers: [NaiveUiResolver()],
-      dirs: ['src/components/**'],
-      extensions: ['vue', 'tsx'],
       dts: 'src/components.d.ts',
     }),
     Pages(),
@@ -36,5 +34,8 @@ export default defineConfig({
   },
   server: {
     port: 1888,
+  },
+  define: {
+    __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false,
   },
 })

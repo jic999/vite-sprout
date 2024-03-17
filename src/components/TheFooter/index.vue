@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { toggleDark } from '@/composables/dark'
+
 defineOptions({
   name: 'TheFooter',
 })
