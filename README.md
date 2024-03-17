@@ -15,7 +15,7 @@
 - 🎨 UnoCSS - 高性能且极具灵活性的即时原子化 CSS 引擎
 
 - 😃 通过简单类名引用海量图标
-  
+
 - 💄 Evan You 用了都说好的 Naive UI
 
 - 🦾 TypeScript, 安全的类型检查，让你的代码更 Strong
