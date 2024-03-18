@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: 'IndexPage',
+  name: 'Index',
 })
 
 const counterStore = useCounterStore()
