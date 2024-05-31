@@ -14,8 +14,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@vueuse/core": "^10.0.2",
-    "naive-ui": "^2.38.1",
+    "@vueuse/core": "^10.10.0",
+    "naive-ui": "^2.38.2",
     "pinia": "^2.0.32",
     "vue": "^3.4.21",
     "vue-router": "^4.1.6"
@@ -34,7 +34,7 @@
     "lint-staged": "^13.2.2",
     "sass": "^1.60.0",
     "typescript": "^5.0.4",
-    "unocss": "^0.58.6",
+    "unocss": "^0.60.3",
     "unocss-preset-scalpel": "^1.2.6",
     "unplugin-auto-import": "^0.17.5",
     "unplugin-vue-components": "^0.26.0",
